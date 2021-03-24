@@ -75,7 +75,7 @@ function Invoke-KeyTool {
     return $result
 }
 
-function Get-JavaKeyStoreCertificate {
+function Get-KeyToolCertificate {
     <#
         .SYNOPSIS
             Gets the details of the certificates imported into the KeyStore.
@@ -198,7 +198,7 @@ function Import-KeyToolCertificate {
 
     switch -Wildcard ($result) {
         'Certificate was added to keystore*' {
-            return Get-JavaKeyStoreCertificate `
+            return Get-KeyToolCertificate `
                 -Alias $Alias `
                 -KeyStore $KeyStore `
                 -StorePass $StorePass `
@@ -274,7 +274,7 @@ function Import-KeyToolStore{
 
     switch -Wildcard ($result) {
         'Certificate was added to keystore*' {
-            return Get-JavaKeyStoreCertificate `
+            return Get-KeyToolCertificate `
                 -Alias $Alias `
                 -KeyStore $KeyStore `
                 -StorePass $StorePass `
@@ -364,7 +364,7 @@ function Set-KeyToolCertificateAlias {
 
     switch -Wildcard ($result) {
         '*Storing*' {
-            return Get-JavaKeyStoreCertificate `
+            return Get-KeyToolCertificate `
                 -Alias $DestAlias `
                 -KeyStore $KeyStore `
                 -StorePass $StorePass `
