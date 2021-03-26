@@ -1,0 +1,16 @@
+
+Alias name: subroot-1
+Creation date: 25 Mar 2021
+Entry type: trustedCertEntry
+Owner: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+Issuer: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3
+Serial number: 1ee5f221dfc623bd4333a8557
+Valid from: Wed Nov 21 00:00:00 GMT 2018 until: Tue Nov 21 00:00:00 GMT 2028
+
+Certificate fingerprints:
+         SHA1: DF:E8:30:23:06:2B:99:76:82:70:8B:4E:AB:8E:81:9A:FF:5D:97:75
+         SHA256: B6:76:FF:A3:17:9E:88:12:09:3A:1B:5E:AF:EE:87:6A:E7:A6:AA:F2:31:07:8D:AD:1B:FB:21:CD:28:93:76:4A
+
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
